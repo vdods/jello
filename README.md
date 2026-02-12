@@ -10,7 +10,7 @@ This repository will also contain updates and other work relevant to the paper. 
 
 The software in this repository is licensed under the [MIT license](LICENSE).  If you use this code, I request that you include a visible attribution to the effect of:
 
-    Victor Dods, 2026, 'Curvature-Induced Force Fields in Hyperelasticity', (TODO: link to paper), (TODO: link to this repo)
+    Victor Dods, 2026, 'Curvature-Induced Force Fields in Hyperelasticity', (TODO: link to paper), https://github.com/vdods/jello
 
 ## Citing This Work
 
@@ -98,4 +98,3 @@ It will print that all tests pass, otherwise will print out a very very ugly err
 
 -   Add citation info, BibTeX entry
 -   Add link to arXiv, and then published paper when available
--   Create github link to tag `curvature-induced-force-fields-in-hyperelasticity`

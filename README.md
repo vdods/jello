@@ -88,11 +88,21 @@ In order to compute the solutions and generate the data used in the paper, run t
 
 ## Other Stuff
 
+### Tests
+
 There are some tests that run a bunch of the code through its paces.  It can be run via
 
     uv run python -m jello.test
 
 It will print that all tests pass, otherwise will print out a very very ugly error message.
+
+### Some Miscellaneous Code
+
+There are some standalone Python source files in the project root directory.  These have not (yet) been integrated into the `jello` Python package that constitutes the code for the numerical solutions in the paper.
+-   `disk-embedding.py` -- work toward computations for the "heuristic step toward the relativistic problem".
+-   `formulas.py` -- uses `sympy` and `vorpy` Python packages to symbolically compute various quantities on the various surfaces of revolution (e.g. metrics, Christoffel symbols, Gaussian curvature).
+-   `integrator.py` -- An experiment in implementing a 4th-order vector field integrator using hyper-dual numbers for automatic differentiation.
+-   `jet-numbers.py` -- An implementation of an improvement on the hyper-dual numbers, in which the whole 2-jet of an expression is computed automatically in one pass, instead of in multiple passes as when using hyper-dual numbers.  In principle, this should be faster (though this Python implementation is definitely slower than the hyper-dual numbers from the `num_dual` Python package).
 
 ## To-dos (For the Author)
 

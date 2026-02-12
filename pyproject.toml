@@ -1,0 +1,15 @@
+[project]
+name = "jello"
+authors = [{ name = "Victor Dods", email = "victor.dods@gmail.com" }]
+version = "0.1.0"
+description = "Codebase and data for the paper 'Curvature-Induced Force Fields in Hyperelasticity'"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26.4",
+    "matplotlib>=3.6.3",
+    "num_dual>=0.13.1",
+    "pyvista>=0.44.1",
+    "scipy>=1.11.4",
+    "sympy>=1.12",
+]
